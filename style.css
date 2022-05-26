@@ -45,3 +45,17 @@ h1{
     top: 0;
     right: 0;
 }
+
+.heart{
+    display: none;
+    cursor: pointer;
+}
+
+.product:hover .heart{
+    display: block;
+    text-align: center;
+    color: red;
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+}
